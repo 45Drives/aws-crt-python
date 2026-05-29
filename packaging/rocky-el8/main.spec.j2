@@ -8,6 +8,8 @@ Source0: {{ name }}-%{version}.tar.gz
 BuildArch: {{ architecture.rocky }}
 BuildRequires:  python%{python3_pkgversion}-devel
 BuildRequires:  python%{python3_pkgversion}-setuptools
+BuildRequires:  python%{python3_pkgversion}-setuptools
+BuildRequires:  python%{python3_pkgversion}-wheel
 Requires: {{ dependencies.rocky_common | join(',') }}
 
 BuildRoot: %{_tmppath}/{{ name }}-%{version}-%{release}-root
