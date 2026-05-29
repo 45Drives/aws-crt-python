@@ -10,9 +10,9 @@
     "git_url": "https://github.com/45Drives/aws-crt-python",
     "license": "Apache",
     "architecture": {
-        "ubuntu": "all",
-        "rocky": "noarch",
-        "debian": "all"
+        "ubuntu": "amd64",
+        "rocky": "x86_64",
+        "debian": "amd64"
     },
     "defaults": {
         "change_urgency": "medium"
