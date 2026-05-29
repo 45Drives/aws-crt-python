@@ -1,4 +1,4 @@
-awscurl (0.33.0-1focal) focal; urgency=medium
+awscrt (0.33.0-1focal) focal; urgency=medium
 
   * First package build
 
