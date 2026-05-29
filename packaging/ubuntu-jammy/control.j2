@@ -2,13 +2,12 @@ Source: {{ name }}
 Section: utils
 Priority: optional
 Maintainer: {{ author }}
-Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-all-dev, python3-setuptools, python3-wheel
+Build-Depends: debhelper-compat (= 12), dh-python, cmake, python3-all, python3-all-dev, python3-setuptools, python3-wheel
 Standards-Version: 4.4.1
 Homepage: {{ git_url }}
 Vcs-Git: {{ git_url }}
 
 Package: python3-{{ name }}
 Architecture: {{ architecture.ubuntu }}
-Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-setuptools
 Depends: ${misc:Depends}, ${python3:Depends}, {{ dependencies.ubuntu_common | join(',') }}
 Description: {{ description }}
